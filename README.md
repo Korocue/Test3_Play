@@ -5,6 +5,7 @@
 ## 収録物
 
 - `Number_Game/`: 数当てゲーム（Python）
+- `String_Tools/`: 文字列を扱うためのツール（リバース機能）
 
 ## 必要環境
 
@@ -23,6 +24,20 @@ python src/game.py
 
 ```bash
 cd Number_Game
+python -m pytest
+```
+
+## Quick Start（String_Tools）
+
+```bash
+cd String_Tools
+python src/reverse.py "Reverse me!"
+```
+
+## テスト（String_Tools）
+
+```bash
+cd String_Tools
 python -m pytest
 ```
 
