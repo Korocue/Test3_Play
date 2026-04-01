@@ -5,7 +5,7 @@
 ## 収録物
 
 - `Number_Game/`: 数当てゲーム（Python）
-- `String_Tools/`: 文字列を扱うためのツール（リバース機能）
+- `String_Tools/`: 文字列を扱うためのツール（`revstr`, `rndgen`）
 
 ## 必要環境
 
@@ -30,8 +30,11 @@ python -m pytest
 ## Quick Start（String_Tools）
 
 ```bash
-cd String_Tools
+cd String_Tools/revstr
 python src/reverse.py "Reverse me!"
+
+cd ../rndgen
+python src/rndgen.py 16
 ```
 
 ## テスト（String_Tools）
@@ -60,4 +63,3 @@ python -m pytest
 - 変更範囲を固定する（例: 今回は `Number_Game/` 配下のみ）
 - Codexに投げた指示は `PROMPT.md` に残す
 - 合格条件・チェック観点は `ACCEPTANCE.md` に残す
-
